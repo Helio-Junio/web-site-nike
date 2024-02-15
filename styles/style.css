@@ -12,21 +12,30 @@ body {
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
     align-items: center;
-    padding: 1%;
+    padding: 1% 5%;
 }
 
 .cabecalho_image_logo {
     width: 200px;
 }
 
+.nav_cabecalho_link {
+    display: flex;
+    justify-content: space-between;
+    gap: 76px;
+}
+
 .cabecalho_link{
     font-family: 'Karla', sans-serif;
     font-size: 28px;
-    font-weight: 400px;
+    font-weight: 400;
     text-decoration: none;
     color: black;
+}
+
+.cabecalho_link:hover{
+    font-weight: 600;
 }
 
 .cabecalho_image_compras{
@@ -52,14 +61,14 @@ body {
     margin: 0%;
     font-family: 'karla', sans-serif;
     font-size: 64px;
-    font-weight: 800px;
+    font-weight: 800;
 }
 
 .apresentacao_texto_paragrafo {
     margin: 0%;
     font-family: 'karla', sans-serif;
     font-size: 32px;
-    font-weight: 300px;
+    font-weight: 300;
 }
 
 .apresentacao_botao_comprar{
@@ -71,12 +80,69 @@ body {
     padding: 16px;
     text-align: center;
     font-family: 'karla', sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 40px;
 }
 
-.apresentacao_image_tenis{
+.apresentacao_image{
+    padding: 2% 0% 0% 0%;
     width: 50%;
+}
+
+.texto_imagem_female{
+    display: inline-block;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.texto_imagem_female figcaption{
+    position: absolute;
+    top: 20%;
+    left: 53%;
+}
+
+.titulo_female{
+    font-family: 'karla', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    padding: 0px 0px 30px 0px;
+}
+
+.texto_female {
+    font-family: 'karla', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0px 0px 30px 0px;
+}
+
+.botao_comprar_female{
+    display: flex;
+    justify-content:end;
+    width: 50%;
+    padding: 2%;
+}
+
+.botao_comprar_female_link{
+    background-color: #DBD6D6;
+    color: #E7765A;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 270px;
+    padding: 16px;
+    text-align: center;
+    font-family: 'karla', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.apresentacao_kids {
+    background-color: #EFF186;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 2% 8% 2%;
+    margin-bottom: 0.2%;
+    gap: 30px;
 }
 
 footer {
