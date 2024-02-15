@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: auto;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: 1%;
+}
+
+.cabecalho_image_logo {
+    width: 200px;
+}
+
+.cabecalho_link{
+    font-family: 'Karla', sans-serif;
+    font-size: 28px;
+    font-weight: 400px;
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho_image_compras{
+    width: 150px;
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 2%;
+    gap: 30px;
+}
+
+.apresentacao_texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.apresentacao_texto_titulo {
+    margin: 0%;
+    font-family: 'karla', sans-serif;
+    font-size: 64px;
+    font-weight: 800px;
+}
+
+.apresentacao_texto_paragrafo {
+    margin: 0%;
+    font-family: 'karla', sans-serif;
+    font-size: 32px;
+    font-weight: 300px;
+}
+
+.apresentacao_botao_comprar{
+    background-color: #171717;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 270px;
+    padding: 16px;
+    text-align: center;
+    font-family: 'karla', sans-serif;
+    font-weight: 700px;
+    font-size: 40px;
+}
+
+.apresentacao_image_tenis{
+    width: 50%;
+}
+
+footer {
+    font-family: 'karla', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    background-color: black;
+    padding: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
