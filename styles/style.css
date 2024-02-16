@@ -97,6 +97,10 @@ body {
     color: #FFFFFF;
 }
 
+.imagem_background_female{
+    width: auto;
+}
+
 .texto_imagem_female figcaption{
     position: absolute;
     top: 20%;
@@ -113,8 +117,8 @@ body {
 .texto_female {
     font-family: 'karla', sans-serif;
     font-size: 30px;
-    font-weight: 700;
-    padding: 0px 0px 30px 0px;
+    font-weight: 400;
+    padding: 0px 30px 30px 0px;
 }
 
 .botao_comprar_female{
@@ -247,7 +251,7 @@ footer {
     font-size: 32px;
     font-weight: 300;
     background-color: black;
-    padding: 20px;
+    padding: 22px;
     color: #FFFFFF;
     text-align: center;
 }
