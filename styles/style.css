@@ -17,7 +17,7 @@ body {
 }
 
 .cabecalho_image_logo {
-    width: 200px;
+    width: 150px;
 }
 
 .nav_cabecalho_link {
@@ -39,7 +39,7 @@ body {
 }
 
 .cabecalho_image_compras{
-    width: 150px;
+    width: 100px;
 }
 
 .apresentacao {
@@ -89,6 +89,8 @@ body {
     width: 50%;
 }
 
+/* pagina web female */
+
 .texto_imagem_female{
     display: inline-block;
     position: relative;
@@ -135,6 +137,8 @@ body {
     font-size: 40px;
 }
 
+/* pagina web kids */
+
 .apresentacao_kids {
     background-color: #EFF186;
     display: flex;
@@ -143,6 +147,99 @@ body {
     padding: 0% 2% 8% 2%;
     margin-bottom: 0.2%;
     gap: 30px;
+}
+
+/* pagina web sale */
+.apresentacao_catalogo{
+    margin: 5%;
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 30px 30px;
+    width: 100%;
+}
+
+.grid {
+    width: 480px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    background-color: #E4E3E3;
+}
+
+.grid:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+}
+
+.grid_image {
+    width: 200px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'karla', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'karla', sans-serif;
+    font-weight: 300;
+}
+
+button {
+    width: 190px;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #D9D9D9;
+    border: 2px solid #929292;
+    font-family: 'karla', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+span {
+    color: #929292;
+}
+
+h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 34px;
+    font-family: 'karla', sans-serif;
+    font-weight: 600;
+}
+
+.galeria_preco_baixo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 30px 30px;
+    width: 100%;
+}
+
+.grid_preco_baixo {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.grid_preco_baixo:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
 }
 
 footer {
